@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopUp</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h4><button onclick="openPopup()" id="ContaPop">Abrir</button></h4>
+
+    <div id="popup" class="popup" class="borda-colorida">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup()">&times;</span>
+            <img id="Fotoper" src="https://i.pinimg.com/736x/85/78/99/85789959ee31a7df60f4f6eb9ea59d55.jpg" alt="Foto de Perfil" class="borda-colorida" style="margin-bottom: 30px;">
+            <h2 id="Nomeper" class="texto-colorido" style="margin-bottom: 20px;"><b>Victor Hugo Marques de Souza</b></h2>
+            <p id="Text" class="texto-colorido">
+              Fulano@gmail.com <br>
+              Estudante <br>
+              Livro favorito: A Morte de Ivan Ilitch <br>
+              Empresa: Mind - ON <br>
+              <button onclick="Alt()" id="ContaPop" class="texto-colorido">Trocar Fundo</button> <br><br><br>
+              <u>Instagram</u> <u style="margin-left: 85px;">WhatsApp</u> <u style="margin-left: 85px;">GitHub</u>
+            </p>      
+        </div>
+      </div>
+
+      <script src="PopUp.js"></script>
+</body>
+</html>
